@@ -1,0 +1,15 @@
+.btn{
+    /*padding: 5px 15px;* USO MAP Y REEMPLAZO todo CON map-get 
+    border:0;
+    border-radius: 5px;
+    margin: 8px;*///
+
+    padding: map-get($btn , padding );
+    border: map-get($btn , border );
+    border-radius: map-get($btn , radio );
+    margin: map-get($btn , margen );
+    background-color:map-get($btn , fondo ) ;
+    border-color: map-get($btn , bordeColor );
+   
+    
+}
